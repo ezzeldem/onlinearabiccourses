@@ -1311,4 +1311,10 @@ input:focus{
         .slick-dots {
             bottom: -20px;
         }
-}
+
+        .pricing , .join-section{
+            padding: 30px 0 30px;
+        }
+        
+
+    }

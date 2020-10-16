@@ -289,7 +289,8 @@ opacity: 0.6;
 }
 
 .header-intro .entry img {
-    width: 100%;
+    width: unset;
+    margin: 0 auto;
 }
 
 /*===================
@@ -466,6 +467,7 @@ opacity: 0.6;
     margin: 0 15px 0 15px;
     transition: all .3s ease-in-out;
     box-shadow: 0px 1px 45px 0px #dddddd5b;
+    margin: 20px 0;
 }
 .pricing .entry:hover {
     box-shadow: 0px 1px 45px 0px #DDDDDD;
@@ -1098,7 +1100,7 @@ footer ul li a .fa-whatsapp {
     
 }
 .free-class .offer-box{
-    padding: 40px 0;
+    padding: 40px ;
     box-shadow: 0px 4px 10px rgba(119, 119, 119, 0.315);
     text-align: center;
     border: 1px solid rgba(119, 119, 119, 0.144);
@@ -1170,7 +1172,7 @@ footer ul li a .fa-whatsapp {
 
 
 .comment-section{
-    padding: 60px;
+    padding: 60px 0;
 }
 
 .commet-slider .commet-slider-item .commet-box{
@@ -1218,3 +1220,95 @@ input:focus{
 }
 
 /* end editing */
+
+
+@media(max-width:992px){
+    .header-intro .entry h2{
+        font-size: 25px;
+    }
+    
+    .header-intro .intro-ul li h5 {
+        font-size: 14px;
+    }
+    
+    
+    .free-class .offer-box .title {
+        font-size: 20px;
+    }
+    .commet-slider .commet-slider-item .commet-box .commet-prag
+    {
+        font-size: 12px;
+    }
+    
+    
+}
+@media(max-width:772px){
+.order-1{
+    order: -1;
+}
+
+.header-intro .entry{
+    padding: 0 0 17px 0;
+}
+
+.header-intro .entry h2 {
+    font-size: 19px;
+    margin: 9px 0;
+    }
+
+    .free-class .offer-box .title {
+        font-size: 14px;
+    }
+
+    .title-sction .title {
+        font-size: 16px;
+    }
+
+    .free-class .offer-box .button {
+        font-size: 14px;
+        padding: 11px 24px;
+    }
+    .prag2 {
+        font-size: 12px;
+        font-weight: 400;
+        color: #888;
+        padding: 0;
+        line-height: 22px;
+    }
+    .pricing .entry{
+        background-color: #fff;
+    }
+    .free-title {
+        font-size: 20px;
+    }
+    .counter .content{
+        padding: 38px 16px;
+    }
+    .free-p {
+        font-size: 14px;
+        padding: 13px 0 4px;}
+        .commet-slider .commet-slider-item .commet-box{
+            margin: 2px 0;
+        }
+        .commet-img img{
+            margin: 0 auto;
+            text-align: center;
+        }
+        .commet-slider .commet-slider-item .commet-box .commet-prag{
+            text-align: center;
+            margin: 5px 0;
+        }
+        .comment-section{
+            padding: 40px 0;
+        }
+
+        .title-sction .title {
+            font-size: 20px;
+            margin: 0 0 19px;
+            padding: 0 0 14px;
+            display: inline-block;
+        }
+        .slick-dots {
+            bottom: -20px;
+        }
+}

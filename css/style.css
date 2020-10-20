@@ -1315,6 +1315,14 @@ input:focus{
         .pricing , .join-section{
             padding: 30px 0 30px;
         }
+        .quality-section .img-box{
+            text-align: center;
+        }
+    .quality-section .img-box img{
+        height: 280px;
+        width: 280px;
+        margin: 0 auto 10px;
+    }
         
 
     }

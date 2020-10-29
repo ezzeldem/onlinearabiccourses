@@ -298,10 +298,6 @@ li {
   text-align: center;
   padding-top: 70px;
   padding-bottom: 100px;
-  background-image: url("../img/bg-header-pages.png");
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
 }
 
 .header-pages .pages-title span {

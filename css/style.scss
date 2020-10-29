@@ -1328,6 +1328,99 @@ input:focus{
 
 
 
+    .login{
+        padding: 130px 0;
+        .login-form-box{
+            .login-form{
+                .form-group{
+                    label{
+                        margin: 0 0 20px;
+                        font-size: 20px;
+                        font-weight: 600;
+                        color: #e99211;
+                    }
+                    input{
+                        transition: .3s all ease-in-out;
+                        &:focus{
+                            outline: none;
+                            border-color: #e99211;
+                        }
+                    }
+                }   
+                .form-submit{
+                    font-size: 20px ;
+                    color:  #e99211;
+                    border:  #e99211;
+                    border: 1px solid  #e99211;
+                    padding: 10px 30px;
+                    background-color: transparent;
+                    border-radius: 3px;
+                    transition: .4s all ease-in-out;
+                    &:hover{
+                        background-color:  #e99211;
+                        color: #fff;
+                        border-radius: 50px;
+                    }
+                }
+            }
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .buttom-re-fo{
+        padding: 40px 0;
+        display: flex;
+       
+        a{
+        border-radius: 3px;
+        flex-basis: 50%;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 15px;
+        text-align: center;
+        color:  #e99211;
+        margin: 10px 20px 10px 0;
+        color:#fff;
+        transition: .4s all ease-in-out;
+        &:last-of-type{
+            margin: 10px 0px;
+        }
+        &.forgot-link{
+            background-color:  #e99211;
+        }
+        &.registration-link{
+            background-color: #5fcd32;
+        }
+    }
+}
+
+@media (max-width:772px)  {
+
+
+    .header-pages{
+         .pages-title{
+            padding-bottom: 50px;
+         }
+         }
+
+    .login{
+        padding: 10px 0;
+        .login-form-box{
+            .login-form{
+                .form-submit{
+                    display: block;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    
 
 
 
@@ -1336,8 +1429,16 @@ input:focus{
 
 
 
-
-
+    .buttom-re-fo{
+        padding: 40px 0;
+        display: flex;
+        flex-wrap: wrap;
+        a{
+            margin: 10px 0;
+        flex-basis: 100%;
+    }
+}
+}
 
 
 

@@ -1305,3 +1305,84 @@ input:focus {
     margin: 0 auto 10px;
   }
 }
+.login {
+  padding: 130px 0;
+}
+.login .login-form-box .login-form .form-group label {
+  margin: 0 0 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #e99211;
+}
+.login .login-form-box .login-form .form-group input {
+  transition: .3s all ease-in-out;
+}
+.login .login-form-box .login-form .form-group input:focus {
+  outline: none;
+  border-color: #e99211;
+}
+.login .login-form-box .login-form .form-submit {
+  font-size: 20px;
+  color: #e99211;
+  border: #e99211;
+  border: 1px solid  #e99211;
+  padding: 10px 30px;
+  background-color: transparent;
+  border-radius: 3px;
+  transition: .4s all ease-in-out;
+}
+.login .login-form-box .login-form .form-submit:hover {
+  background-color: #e99211;
+  color: #fff;
+  border-radius: 50px;
+}
+
+.buttom-re-fo {
+  padding: 40px 0;
+  display: flex;
+}
+.buttom-re-fo a {
+  border-radius: 3px;
+  flex-basis: 50%;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px;
+  text-align: center;
+  color: #e99211;
+  margin: 10px 20px 10px 0;
+  color: #fff;
+  transition: .4s all ease-in-out;
+}
+.buttom-re-fo a:last-of-type {
+  margin: 10px 0px;
+}
+.buttom-re-fo a.forgot-link {
+  background-color: #e99211;
+}
+.buttom-re-fo a.registration-link {
+  background-color: #5fcd32;
+}
+
+@media (max-width: 772px) {
+  .header-pages .pages-title {
+    padding-bottom: 50px;
+  }
+
+  .login {
+    padding: 10px 0;
+  }
+  .login .login-form-box .login-form .form-submit {
+    display: block;
+    width: 100%;
+  }
+
+  .buttom-re-fo {
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .buttom-re-fo a {
+    margin: 10px 0;
+    flex-basis: 100%;
+  }
+}

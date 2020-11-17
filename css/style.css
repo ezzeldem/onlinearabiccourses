@@ -1727,6 +1727,13 @@ input:focus {
 }
 .select-date {
   margin: 40px 0;
+  background-image: url(../img/bg2.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.select-date .select-date-content {
+  width: 100%;
 }
 .select-date .select-date-content .select-date-title {
   font-size: 20px;
@@ -1739,6 +1746,10 @@ input:focus {
   font-size: 14px;
   color: #414141;
   padding: 5px;
+}
+.select-date .date-input:focus {
+  border: 1px solid #e99211;
+  box-shadow: unset;
 }
 .select-date .select-form {
   margin: 20px 0;

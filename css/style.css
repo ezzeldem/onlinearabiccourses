@@ -1711,3 +1711,17 @@ input:focus {
     font-size: 12px;
   }
 }
+@media (max-width: 400px) {
+  .instructors-section .instructors-logo, .last-section .user-box .user-logo {
+    height: 50px;
+    width: 40px;
+  }
+
+  .course-curriculum .course-curriculum-title {
+    font-size: 12px;
+  }
+
+  .course-curriculum .course-curriculum-ul ul li {
+    font-size: 10px;
+  }
+}

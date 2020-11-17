@@ -1725,52 +1725,20 @@ input:focus {
     font-size: 10px;
   }
 }
-.event-title {
-  text-align: center;
-  font-size: 24px;
-  font-weight: 600;
-  margin: 20px 0;
-}
-
-.fc button {
-  background-color: #e99210;
-  border: 0;
-  background-image: unset;
-  color: #fff;
-}
-.fc button:focus {
-  outline: none;
-}
-
-.fc-left h2 {
-  font-size: 18px;
-}
-
-.fc-unthemed td.fc-today {
-  color: #fff;
-  background: #e99210;
-}
-
-.event-title .span-style {
-  font-size: 20px;
-}
-
-.modal {
-  font-size: 20px;
-  font-weight: 500;
-  margin: 20px 0;
-}
-
-.span-style {
-  font-size: 14px;
-}
-
 .select-date {
   margin: 40px 0;
 }
 .select-date .select-date-content .select-date-title {
   font-size: 20px;
   font-weight: 500;
+}
+.select-date .date-input {
+  margin: 20px 0;
+  width: 100%;
+  border: 1px solid #e99211;
+  font-size: 14px;
+  color: #414141;
+  padding: 5px;
 }
 .select-date .select-form {
   margin: 20px 0;
@@ -1779,7 +1747,7 @@ input:focus {
   font-size: 17px;
   display: block;
 }
-.select-date .select-form .submit-button {
+.select-date .submit-buttom {
   font-size: 18px;
   color: #fff;
   background-color: #e99211;
@@ -1790,7 +1758,7 @@ input:focus {
   width: 100%;
   transition: .4s all ease-in-out;
 }
-.select-date .select-form .submit-button:hover {
+.select-date .submit-buttom:hover {
   transform: translateY(5px) scale(0.99);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.301);
 }

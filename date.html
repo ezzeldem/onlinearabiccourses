@@ -12,7 +12,6 @@
 		<link rel="stylesheet" href="css/aos.css">
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@3.10.2/dist/fullcalendar.min.css" />
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
@@ -69,33 +68,31 @@
 		<div class="select-date">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-md-12">
 						<div class="select-date-content">
 							<h4 class="select-date-title">
 								Lorem ipsum dolor sit amet consectetur adipisicing elit.
 							</h4>
-
+							
 							<form class="select-form" action="">
-									<label class="label-style">
-										<input type="checkbox" name="" id="" checked autocomplete="off">
-										10:00P.M
-									</label>
-									<label class="label-style">
-										<input type="checkbox" name="" id="" autocomplete="off">
-												10:00P.M
-									</label>
-									<label class="label-style">
-										<input type="checkbox" name="" id="" autocomplete="off">
-												10:00P.M
-									</label>
-									<button class="submit-button" type="submit">
-										submit
-									</button>
-							</form>
+								<input type="date" class="date-input" name="" id="">
+										<label class="label-style">
+											<input type="checkbox" name="" id="" checked autocomplete="off">
+											10:00P.M
+										</label>
+										<label class="label-style">
+											<input type="checkbox" name="" id="" autocomplete="off">
+													10:00P.M
+										</label>
+										<label class="label-style">
+											<input type="checkbox" name="" id="" autocomplete="off">
+													10:00P.M
+										</label>
+										<button class="submit-buttom" type="submit">
+											submit
+										</button>
+						</form>
 						</div>
-					</div>
-					<div class="col-md-8">
-						<div id="calendar"></div>
 					</div>
 				</div>
 			</div>
@@ -129,29 +126,7 @@
 		<script src="js/fontawesome.js"></script>
 		<script src="js/bootstrap-dropdownhover.min.js"></script>
 		<script src="js/aos.js"></script>
-		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js"></script>
-		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/fullcalendar@3.10.2/dist/fullcalendar.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 		<script src="js/custom.js"></script>
-		<script>
-			$(function () {
-			// get the date 
-			var d = new Date("July 21, 1983 01:15:00");
-			var n = d.getDate();
-
-			// fullCalendar function
-			$("#calendar").fullCalendar({
-				defaultView: "month",
-				defaultDate: n,
-
-				// custom fullCalendar header
-				header: {
-					center: 'month,agendaWeek,agendaDay',
-					right: 'today prev,next'
-				}
-			});
-			});
-		</script>
-		
 	</body>
 </html>

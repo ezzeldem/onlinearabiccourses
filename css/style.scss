@@ -1777,44 +1777,6 @@ $main-color:#e99211;
 }
 
 
-.event-title {
-    text-align: center;
-    font-size: 24px;
-    font-weight: 600;
-    margin: 20px 0;
-}
-.fc button{
-    background-color: #e99210;
-    border: 0;
-    background-image: unset;
-    color: #fff;
-    &:focus{
-        outline: none;
-    }
-}
-.fc-left{
-    h2{
-        font-size: 18px;
-    }
-}
-.fc-unthemed td.fc-today {
-    color: #fff;
-    background: #e99210;
-}
-.event-title .span-style {
-    font-size: 20px;
-}
-
-.modal {
-    font-size: 20px;
-    font-weight: 500;
-    margin: 20px 0;
-}
-
-.span-style {
-    font-size: 14px;
-}
-
 
 
 
@@ -1828,26 +1790,34 @@ $main-color:#e99211;
         }
     }
 
+    .date-input{
+        margin: 20px 0;
+        width: 100%;
+        border: 1px solid $main-color;
+        font-size: 14px;
+        color: rgb(65, 65, 65);
+        padding: 5px ;
+    }
     .select-form{
         margin: 20px 0;
         .label-style{
             font-size: 17px;
             display: block;
         }
-        .submit-button{
-            font-size: 18px;
-            color: #fff;
-            background-color: $main-color;
-            padding: 10px 15px;
-            border: 0;
-            border-radius: 4px;
-            margin: 20px 0;
-            width: 100%;
-            transition: .4s all ease-in-out;
-            &:hover{
-                transform: translateY(5px) scale(.99);
-                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.301);
-            }
+    }
+    .submit-buttom{
+        font-size: 18px;
+        color: #fff;
+        background-color: $main-color;
+        padding: 10px 15px;
+        border: 0;
+        border-radius: 4px;
+        margin: 20px 0;
+        width: 100%;
+        transition: .4s all ease-in-out;
+        &:hover{
+            transform: translateY(5px) scale(.99);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.301);
         }
     }
 }
